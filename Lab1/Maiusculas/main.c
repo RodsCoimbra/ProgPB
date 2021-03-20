@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int main()
-{    int i = 0;
-     char c;
+{    char c;
+     printf("Escreva a frase que deseja converter: \n");
      while( (c = getchar())!= '\0'){
      printf("%c", toupper(c));
      if(c == '\n'){
